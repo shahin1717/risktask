@@ -1,1 +1,4 @@
 /part_b/whisper-az-finetuned/
+__pycache__/
+/part_a/__pycache__/
+/part_b/__pycache__/

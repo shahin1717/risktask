@@ -1,4 +1,4 @@
 Model,WER (%),CER (%)
 Base (whisper-small),65.32,18.49
-Fine-tuned,52.79,15.6
-Improvement,12.53,2.89
+Fine-tuned,51.36,13.66
+Improvement,13.96,4.83

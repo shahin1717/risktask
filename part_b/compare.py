@@ -23,17 +23,18 @@ DEVICE          = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Training logs from fine_tuner.py output
 TRAINING_LOGS = [
-    {"epoch": 1,  "train_loss": 1.939, "val_wer": 0.9533},
-    {"epoch": 2,  "train_loss": 0.8707,"val_wer": 1.173},
-    {"epoch": 3,  "train_loss": 0.581, "val_wer": 1.005},
-    {"epoch": 4,  "train_loss": 0.4075,"val_wer": 1.243},
-    {"epoch": 5,  "train_loss": 0.3001,"val_wer": 1.182},
-    {"epoch": 6,  "train_loss": 0.2366,"val_wer": 1.042},
-    {"epoch": 7,  "train_loss": 0.1937,"val_wer": 0.9813},
-    {"epoch": 8,  "train_loss": 0.1659,"val_wer": 0.9206},
-    {"epoch": 9,  "train_loss": 0.1501,"val_wer": 0.9019},
-    {"epoch": 10, "train_loss": 0.1385,"val_wer": 0.8785},
+    {"epoch": 1,  "train_loss": 2.62,    "val_wer": 60.75},
+    {"epoch": 2,  "train_loss": 0.8707,  "val_wer": 56.07},
+    {"epoch": 3,  "train_loss": 0.581,   "val_wer": 57.48},
+    {"epoch": 4,  "train_loss": 0.4075,  "val_wer": 54.21},
+    {"epoch": 5,  "train_loss": 0.3001,  "val_wer": 51.87},
+    {"epoch": 6,  "train_loss": 0.2366,  "val_wer": 53.27},
+    {"epoch": 7,  "train_loss": 0.1937,  "val_wer": 53.74},
+    {"epoch": 8,  "train_loss": 0.1659,  "val_wer": 55.61},
+    {"epoch": 9,  "train_loss": 0.1501,  "val_wer": 54.67},
+    {"epoch": 10, "train_loss": 0.1385,  "val_wer": 56.07},
 ]
+
 
 
 # ── Inference ────────────────────────────────────────────────────────────────
