@@ -1,6 +1,6 @@
 # 🎙️ Azerbaijani ASR — Whisper Fine-Tuning
 
-Automatic Speech Recognition (ASR) pipeline for the Azerbaijani language using OpenAI Whisper, built for the R.I.S.K. Company AI Internship Program.
+Automatic Speech Recognition (ASR) pipeline for the Azerbaijani language using OpenAI Whisper.
 
 ---
 
@@ -183,6 +183,5 @@ matplotlib
 
 ## 📝 Qeydlər
 
-- GPU tövsiyə olunur (test: min RTX 4060 8GB)
+- GPU tövsiyə olunur (used: RTX 4060 8GB)
 - CPU ilə inference mümkündür, lakin fine-tuning çox yavaş olacaq
-- Daha yaxşı nəticə üçün `whisper-medium` və daha çox data tövsiyə olunur
